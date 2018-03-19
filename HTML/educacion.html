@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>  <!-- Cabecera-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>  <!--Cuerpo-->
+    <header>
+      <svg width="196" height="113" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"> <!--logo-->
+        <g>
+          <title>Logo</title>
+          <text stroke="#ff0000" transform="matrix(14.62701892852783,0,0,1,-3683.553554117679,0) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_2" y="142" x="265" stroke-width="0" fill="#000000"/>
+          <g stroke="null" id="svg_4">
+            <rect stroke="#000000" id="svg_1" height="103.798141" width="186.468764" y="4.426314" x="4.890622" fill="#000000"/>
+            <text stroke="#ffffff" transform="matrix(6.762591289112079,0,0,4.120680165382923,-528.3726007907447,-634.5916030815749) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_3" y="175.889143" x="92.344861" stroke-linejoin="round" stroke-dasharray="null" fill="#FF5733">JR</text>
+          </g>
+        </g>
+      </svg>
+      <h1><u>Curriculum Vitae</u></h1>
+      <h3>Información Personal</h3>
+      <p>
+        <b>Nombre y Apellido: </b>Jorge Miguel Romero <br>
+        <b>Lugar y Fecha de Nac.:</b> Arroyito, 8 de enero de 1981 <br>
+        <b>DNI:</b> 28.024.919
+      </p>
+      <nav> <!--Menú de Enlaces-->
+        <a href="..\index.html">Inicio</a> |
+        <a href="educacion.html">Educación</a> |
+        <a href="experiencia.html">Experiencia</a>
+      </nav>
+      <h2>Educación</h2>
+    </header>
+    <table border="1", cellpadding="10", cellspacing="0"> <!--Información Academica-->
+        <thead>
+          <tr>
+            <th bgcolor="#ECEAE9"><b>Año</b></th>
+            <th bgcolor="#ECEAE9"><b>Institución</b></th>
+            <th bgcolor="#ECEAE9"><b>Lugar</b></th>
+            <th bgcolor="#ECEAE9"><b>¿Culmino?</b></th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td align ="center">1991</td>
+              <td>Colegio Dr. Dalmacio V. Sarsfield</td>
+              <td align ="center">Arroyito</td>
+              <td align ="center">SI</td>
+            </tr>
+            <tr>
+              <td align ="center">1998</td>
+              <td>UTN</td>
+              <td align ="center">Córdoba</td>
+              <td align ="center">NO</td>
+            </tr>
+            <tr>
+              <td align ="center">2002</td>
+              <td>IES Siglo XXI</td>
+              <td align ="center">Arroyito</td>
+              <td align ="center">NO</td>
+            </tr>
+            <tr>
+              <td align ="center">2008</td>
+              <td>UNLUJ</td>
+              <td align ="center">Lujan</td>
+              <td align ="center">NO</td>
+            </tr>
+        </tbody>
+      </table>
+    <h3>Agregar Estudios</h3>
+    <form autocomplete="on", name="AgregarEstudios">  <!--Formulario-->
+      <p><label for ="anio"><b>Año</b></label>  <!--Años-->
+        <select name="year">
+          <option>1998</option>
+          <option>1999</option>
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+      </p>
+      <p><label for="institución"><b>Institución:</b></label>
+        <input type="text" placeholder="Ej.: Esc. José Maria Paz" required>
+      </p>
+      <p><label for="lugar"><b>Lugar:</b></label>
+        <input type="text" placeholder="Ej.: Arroyito" required>
+      </p>
+      <p><label for="finish">Finalizo?: </label>
+        <input type="radio" name="end" value="1" checked>	Si
+        <input type="radio" name="end" value="2" >	No
+      </p>
+      <p> <input type="submit" value="Enviar">
+      </p>
+    </form>
+  </body>
+  <footer><!--Pie de Pagina-->
+    <em>Email: <a href="mailto:jmiromero@hotmail.es">jmiromero@hotmail.es</a> |
+      Cel.: 03576-15474372 |
+      Dirección: <a href="https://goo.gl/maps/77iBk3suiAS2", target="_blank">Amos Quijada 2043 - Arroyito</a>
+    </em>
+  </footer>
+</html>
